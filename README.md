@@ -34,12 +34,12 @@ Please refer to our [publication](#references) if you are interested in the deta
 <td><div align="center"><img src="doc/resource/markers.PNG" height="250px" /></div></td>
 </tr>
 <tr style="color:black;font-family: Serif">
-<td style="width:600px"><div align="center">
+<td width="600px"><div align="center">
 (a)<br>Anatomical outline of the Circle-of-Willis (CoW): Arterial vessels and their flow directions are indicated through red lines, and abbreviations of the
 respective vessel segments are shown (e.g., ICA, MCA, PCA, ...). Segments which may not be present in every patient are shown as dashed lines.
 Marker points used for the Ground-Truth generation algorithm are shown in blue.
 The resulting four circulatory regions (Left, Right, Anterior, Posterior) are labeled and their borders indicated in the background colors.</div></td>
-<td style="width:350px"><div align="center">
+<td width="350px"><div align="center">
 (b)<br>Exemplar ground-truth annotation for IXI002: circulatory regions and marker points match the anatomical outline described in (a).</div>
 </tr>
 </tbody></table>
@@ -52,10 +52,10 @@ The resulting four circulatory regions (Left, Right, Anterior, Posterior) are la
 <td><img src="doc/resource/eval_vis_d.png" height="300px" /></td>
 </tr>
 <tr style="color:black;font-family: Serif">
-<td style="width:200px"><div align="center">TOF-MRA</div></td>
-<td style="width:200px"><div align="center">PDw</div></td>
-<td style="width:200px"><div align="center">T1w</div></td>
-<td style="width:200px"><div align="center">T2w</div></td>
+<td width="200px"><div align="center">TOF-MRA</div></td>
+<td width="200px"><div align="center">PDw</div></td>
+<td width="200px"><div align="center">T1w</div></td>
+<td width="200px"><div align="center">T2w</div></td>
 <tr style="color:black;font-family: Serif">
 <td colspan="4"><div align="center">Predictions for IXI002 of the cross-validation split (top) and IXI347 of the test-split (bottom).</div></td>
 </tr>
