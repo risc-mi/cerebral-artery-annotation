@@ -1,0 +1,33 @@
+{
+    "name": "Task600_CerebralClusters",
+    "description": "CerebralClusters",
+    "reference": "RISC Software GmbH",
+    "licence": "Proprietary",
+    "relase": "1.0 2023/01/30",
+    "labels": {
+        "background": 0,
+        "vessel": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "posterior": 2,
+        "anterior": 3,
+        "left": 4,
+        "right": 5
+    },
+    "regions_class_order": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "numTraining": 1938,
+    "channel_names": {
+        "0": "MRI"
+    },
+    "file_ending": ".nii.gz"
+}

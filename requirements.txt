@@ -1,0 +1,3 @@
+nnunetv2 >= 2.1
+torch >= 2.0
+simpleitk >= 2.2
