@@ -1,17 +1,17 @@
 # Segmentation and Anatomical Annotation of Cerebral Arteries in Non-Angiographic MRI
 
-<table><tbody style="border-color: black;text-align: center;background-color: black;">
+<table><tbody style="border-color: black;background-color: black;">
 <tr>
-<td><img src="doc/resource/slice_mra.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/slice_t1.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/slice_t2.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/slice_pd.png" style="max-height: 300px"  /></td>
+<td><img src="doc/resource/slice_mra.png" height="200px" /></td>
+<td><img src="doc/resource/slice_t1.png" height="200px" /></td>
+<td><img src="doc/resource/slice_t2.png" height="200px" /></td>
+<td><img src="doc/resource/slice_pd.png" height="200px" /></td>
 </tr>
-<tr style="font-family: Serif;color: white">
-<td style="width:200px">TOF-MRA</td>
-<td style="width:200px">PDw</td>
-<td style="width:200px">T1w</td>
-<td style="width:200px">T2w</td>
+<tr>
+<td><div align="center">TOF-MRA</div></td>
+<td><div align="center">PDw</div></td>
+<td><div align="center">T1w</div></td>
+<td><div align="center">T2w</div></td>
 </tr>
 </tbody></table>
 
@@ -28,36 +28,36 @@ in an ensemble.
 Please refer to our [publication](#references) if you are interested in the details, e.g., how the ground-truth annotations have been generated.
 
 
-<table><tbody style="text-align: center;background-color:white;vertical-align: top">
+<table><tbody style="background-color:white;vertical-align: top">
 <tr>
-<td><img src="doc/resource/anatomy.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/markers.PNG" style="max-height: 300px"  /></td>
+<td><div align="center"><img src="doc/resource/anatomy.png" height="250px" /></div></td>
+<td><div align="center"><img src="doc/resource/markers.PNG" height="250px" /></div></td>
 </tr>
 <tr style="color:black;font-family: Serif">
-<td style="width:600px">
+<td style="width:600px"><div align="center">
 (a)<br>Anatomical outline of the Circle-of-Willis (CoW): Arterial vessels and their flow directions are indicated through red lines, and abbreviations of the
 respective vessel segments are shown (e.g., ICA, MCA, PCA, ...). Segments which may not be present in every patient are shown as dashed lines.
 Marker points used for the Ground-Truth generation algorithm are shown in blue.
-The resulting four circulatory regions (Left, Right, Anterior, Posterior) are labeled and their borders indicated in the background colors.</td>
-<td style="width:350px">
-(b)<br>Exemplar ground-truth annotation for IXI002: circulatory regions and marker points match the anatomical outline described in (a).
+The resulting four circulatory regions (Left, Right, Anterior, Posterior) are labeled and their borders indicated in the background colors.</div></td>
+<td style="width:350px"><div align="center">
+(b)<br>Exemplar ground-truth annotation for IXI002: circulatory regions and marker points match the anatomical outline described in (a).</div>
 </tr>
 </tbody></table>
 
-<table><tbody style="text-align: center;background-color:white;vertical-align: top">
+<table><tbody style="background-color:white;vertical-align: top">
 <tr>
-<td><img src="doc/resource/eval_vis_a.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/eval_vis_b.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/eval_vis_c.png" style="max-height: 300px"  /></td>
-<td><img src="doc/resource/eval_vis_d.png" style="max-height: 300px"  /></td>
+<td><img src="doc/resource/eval_vis_a.png" height="300px" /></td>
+<td><img src="doc/resource/eval_vis_b.png" height="300px" /></td>
+<td><img src="doc/resource/eval_vis_c.png" height="300px" /></td>
+<td><img src="doc/resource/eval_vis_d.png" height="300px" /></td>
 </tr>
 <tr style="color:black;font-family: Serif">
-<td style="width:200px">TOF-MRA</td>
-<td style="width:200px">PDw</td>
-<td style="width:200px">T1w</td>
-<td style="width:200px">T2w</td>
+<td style="width:200px"><div align="center">TOF-MRA</div></td>
+<td style="width:200px"><div align="center">PDw</div></td>
+<td style="width:200px"><div align="center">T1w</div></td>
+<td style="width:200px"><div align="center">T2w</div></td>
 <tr style="color:black;font-family: Serif">
-<td colspan="4">Predictions for IXI002 of the cross-validation split (top) and IXI347 of the test-split (bottom).</td>
+<td colspan="4"><div align="center">Predictions for IXI002 of the cross-validation split (top) and IXI347 of the test-split (bottom).</div></td>
 </tr>
 </tbody></table>
 
@@ -98,7 +98,7 @@ The output labels predicted by our models are as follows:
 </tbody></table>
 </td>
 <td>
-<img src="doc/resource/output_labels.png" style="max-height: 250px"  />
+<img src="doc/resource/output_labels.png" height="250px" />
 </td>
 </tr></tbody></table>
 
