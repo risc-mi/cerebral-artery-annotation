@@ -1,5 +1,7 @@
 # Segmentation and Anatomical Annotation of Cerebral Arteries in Non-Angiographic MRI
 
+<mark>Notice: Our latest contributions on the topic are available through our new repository at [GitHub](https://github.com/risc-mi/cerebral-artery-segmentation).</mark>
+
 <table><tbody style="border-color: black;text-align: center;background-color: black;">
 <tr>
 <td><img src="doc/resource/slice_mra.png" style="max-height: 300px"  /></td>
